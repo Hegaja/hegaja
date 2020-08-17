@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>Hegaja | Front-end Developer</title>
+    <link rel="icon" href="img/iconLogo.png" />
+
+    <!-- CSS -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="blue-grey darken-4" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="#" class="brand-logo">Hegaja</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#home" id="homeButton">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+        </div>
+      </nav>
+    </div>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <!-- ################ -->
+    <!-- HOME SECTION -->
+    <!-- ################ -->
+      
+        <div class="col s12">
+          <div id="home" class="center-align">
+            <div class="mainTitle">
+              <h1>Filipe Hegaja</h1>
+              <p>Web Developer</p>
+            </div>
+            <!-- These two divs make the scroll button on main part -->
+            <div class="middleMouse" id="clicker">
+              <div class="centerMouse"></div>
+            </div>
+          </div>
+        
+      </div>
+     <!-- ################ -->
+    <!-- ABOUT ME SECTION -->
+    <!-- ################ -->
+    <div class="container scrollspy" id="about">
+      <h1 class="center-align">About Me</h1>
+
+      <div class="section">
+        <div class="row">
+        <div class="col s12 m12 l6 center-align hide-on-small-only" id="">
+          <img
+            class="responsive-img"
+            src="img/profilePic.jpg"
+            id="profilePic"
+          />
+        </div>
+        <div class="col s12 m12 l6 flow-text center-align" id="profileText">
+          <p>
+            I'm a Front-End developer working as freelancer. I love to see UI
+            effects, interactions and dynamic user experiences. Intuitive UX/UI
+            are my priority, also a fast load time. I can help you solve a problem, build a product or grow existing project.
+          </p>
+          <h3>Skills</h3>
+          <p>
+            Languages: HTML5 CSS3 UI/UX <br />
+            Framework: MaterializeCSS
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="row" id="skillsCard">
+        <div class="col s6 m6 l2 center offset-l1 icon-red" id="skillExplanation">
+          <i class="material-icons prefix large">timer</i>
+          <p>Fast sites</p>
+        </div>
+        <div class="col s6 m6 l2 center offset-l1 icon-blue" id="skillExplanation">
+          <i class="material-icons prefix large">devices_other</i>
+          <p>Responsive</p>
+        </div>
+
+        <div class="col s6 m6 l2 center offset-l1 icon-gold" id="skillExplanation">
+          <i class="material-icons prefix large">wb_sunny</i>
+          <p>Intuitive</p>
+        </div>
+        <div class="col s6 m6 l2 center offset-l1 icon-green" id="skillExplanation">
+          <i class="material-icons prefix large">loop</i>
+          <p>Dynamic</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ################ -->
+    <!-- WORK ME SECTION -->
+    <!-- ################ -->
+    <div class="container">
+      <div class="section scrollspy" id="work">
+          <h1 class="center-align">My Recent Work</h1>
+        <!-- Icon Section -->
+        <div class="row">
+            <div class="col s12 m6">
+                <h4 class="header">Estudos Videira</h4>
+                <div class="card horizontal">
+                  <div class="card-image valign-wrapper">
+                    <video class="responsive-video" width="320" style="margin:3px;" muted autoplay loop>
+                      <source src="img/estudosVideira.webm" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>A simple page to be used in cellphones who requires low data usage. <br> Content in Portuguese.</p>
+                    </div>
+                    <div class="card-action">
+                      <a href="https://estudosvideira.xyz/">Visit <i class="material-icons left">open_in_new</i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          <div class="col s12 m6">
+            <h4 class="header">Learning Smart</h4>
+            <div class="card horizontal valign-wrapper">
+              <div class="card-image">
+                <video class="responsive-video" style="margin:3px;" muted autoplay loop>
+                  <source src="img/learningSmart.webm" type="video/mp4">
+                </video>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>Website design & development. <br>Full responsive, fast and clean.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://learnsmarttutoring.ca/">Visit <i class="material-icons left">open_in_new</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col s12 m6">
+            <h4 class="header">Personal Page</h4>
+            <div class="card horizontal valign-wrapper">
+              <div class="card-image ">
+                <video class="responsive-video" style="margin:3px;"  muted autoplay loop>
+                  <source src="img/myPage.webm" type="video/mp4" >
+                </video>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>My personal website was developed using MaterializeCSS and Jquery.</p>
+                </div>
+                <div class="card-action">
+                  <a href="https://github.com/hegaja" target="_blank">
+                    <img class="left" src="img/git32.png" alt="GitHub Logo" style="width:24px;height:24px;margin-right:3px;">
+                     See the code
+                </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+      <br /><br />
+    </div>
+
+    <footer class="page-footer blue-grey darken-4">
+      <div class="container scrollspy" id="contact">
+        <div class="row">
+          <div class="col l6 s12">
+            <h4 class="white-text">Have a project in mind?</h4>
+            <p class="grey-text text-lighten-4">
+                Interested in working together? Do you have a plan and need help putting it online or improving it? 
+                Just fill out the form or send an email to: <a href = "mailto: contact@hegaja.com">contact@hegaja.com</a> we will put your project into reality.
+            </p>
+          </div>
+          <div class="col l6 s12">
+            <!-- DANGER ZONE -->
+              <form class="container col s12 m9 l10" id="formField" method="POST" action="mail.php">
+                  <div class="row">
+                      <div class="input-field col s6">
+                          <i class="material-icons prefix">face</i>
+                          <input id="first_name" type="text" class="validate" autocomplete="off" name="first_name">
+                          <label for="first_name">Name</label>
+                      </div>
+
+                  </div>
+
+                  <div class="row">
+                      <div class="input-field col s12">
+                          <i class="material-icons prefix">mail</i>
+                          <input id="email" type="email" class="validate" autocomplete="off" name="email">
+                          <label for="email">Your email</label>
+                          <span class="helper-text" data-error="Please, use a valid email" data-success="right"></span>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12">
+                          <i class="material-icons prefix">mode_edit</i>
+                          <textarea id="textarea1" class="materialize-textarea validate" name="message"></textarea>
+                          <label for="textarea1">Say something...</label>
+                      </div>
+                  </div>
+                  <button id="buttonForm" class="btn waves-effect waves-purple blue-grey darken-3" type="submit" name="action" for="submit">
+                      Submit
+                      <i class="material-icons right">send</i>
+                  </button>
+              </form>
+              <!-- #END OF DANGER ZONE -->
+          </div>
+          
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          
+          <a class="orange-text text-lighten-3" href="https://hegaja.com"
+            >Hegaja,</a
+          > 2019
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+      $(document).ready(function() {
+        //to scroll down from home to skill page, smoothly
+        $("#clicker").on("click", function() {
+          $("html, body").animate(
+            { scrollTop: $("#about").offset().top -100 },
+            "slow"
+          );
+        });
+
+        //TOP button for menu, now it goes to home smoothly
+        $("#homeButton").click(function () {
+                $('html, body').animate({ scrollTop: 0 }, 800);
+            });
+        // The magic of scrollspy
+        $('.scrollspy').scrollSpy({
+            scrollOffset: 90,
+            //throttle: 1000
+        });
+        // fixed button menu for small devices
+        $(document).ready(function () {
+                $('.fixed-action-btn').floatingActionButton();
+            });
+        // mobile menu
+        $('.sidenav').sidenav();
+        
+      });
+    </script>
+  </body>
+</html>
