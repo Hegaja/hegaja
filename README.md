@@ -4,7 +4,7 @@
 Here are some ideas to get you started:
 -->
 ---
-- 🔭 I’m currently working on [Emprego Remoto](https://empregoremoto.com.br)
+- 🔭 I’m currently working on [Emprego Remoto](https://empregoremoto.com.br), [Filipe dev](https://filipedev.com), [Frase estoica](https://fraseestoica.com.br)
 - 🌱 I’m currently learning more design patterns 😎
 - 👯 I’m looking to collaborate on 🤷‍♂️
 - 💬 Ask me about how to make responsives sites
@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 ## Some works
 ### Small Business Websites
 - [Learn-smart tutoring](https://learnsmart.vercel.app)
-- [Bistro Diniz](https://bistrodiniz.com.br) (content in Portuguese)
+- [Bistro Diniz](https://bistrodiniz.com.br) (content in Portuguese) [OFF]
 - [Cozinha da Ana](https://cozinhadaana.vercel.app) (content in Portuguese)
 ### Single page app
 - [Web text editor](https://webtexteditor.com) [OFF]
